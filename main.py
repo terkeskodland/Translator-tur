@@ -13,7 +13,7 @@ while ((mode != '0') and (mode != '1')):
 if mode == "1":
     print("Çevirebildiğiniz kadar kelime çevirin! 10 hakkınız var!")
     for i in range(10):
-        number = random.randint(0, len(eng_words))
+        number = random.randint(0, len(eng_words)-1)
         print("Tercümesi bu şekilde olmalı: " + eng_words[number])
         if input() == tr_words[number]:
             print("Harika!!!")
