@@ -15,7 +15,7 @@ if mode == "1":
     for i in range(10):
         number = random.randint(0, len(eng_words))
         print("Tercümesi bu şekilde olmalı: " + eng_words[number])
-        if input() == fr_words[number]:
+        if input() == tr_words[number]:
             print("Harika!!!")
             score += 1
         else:
